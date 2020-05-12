@@ -37,8 +37,6 @@ for i in range(0, len(listamenorsv)):  # for que vai de 0 até o tamanho da list
 # -----------------------------------------------------------------------------#
 # -------------------maiores palavras -----------------------------#
 for i in range(0, len(texto.split())):
-    if maiorpalavra == "":
-        maiorpalavra = texto.split()[i]
     if len(texto.split()[i]) >= len(
             maiorpalavra):
         maiorpalavra = texto.split()[i]
